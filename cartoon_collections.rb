@@ -22,6 +22,8 @@ end
 
 long_planeteer_calls(planeteer_calls)
 
+list = []
+
 def find_the_cheese(list)
   contains_cheese = ["cheddar", "gouda", "camembert"]
   list.find do |possibly_cheesy|
